@@ -89,8 +89,8 @@ function deleteNikki(index){
 function watchNikki(kouban){
     $('.zoon-ue').after('<div class="balloon_l"><div class="faceicon"><img src="Alexa.jpeg" alt="" ></div><p class="says">ーーーーーーーーーーーーーーー</p></div>');
     $('.zoon-ue').after('<div class="balloon_l"><div class="faceicon"><img src="Alexa.jpeg" alt="" ></div><p class="says">'+Nikki_array[kouban].honbun+'</p></div>');
-    $('.zoon-ue').after('<div class="balloon_l"><div class="faceicon"><img src="Alexa.jpeg" alt="" ></div><p class="says">'+Nikki_array[kouban].title+'</p></div>');
-    $('.zoon-ue').after('<div class="balloon_l"><div class="faceicon"><img src="Alexa.jpeg" alt="" ></div><p class="says">'+Nikki_array[kouban].date+'</p></div>');
+    $('.zoon-ue').after('<div class="balloon_l"><div class="faceicon"><img src="Alexa.jpeg" alt="" ></div><p class="says">タイトル：'+Nikki_array[kouban].title+'</p></div>');
+    $('.zoon-ue').after('<div class="balloon_l"><div class="faceicon"><img src="Alexa.jpeg" alt="" ></div><p class="says">日付：'+Nikki_array[kouban].date+'</p></div>');
     $('.zoon-ue').after('<div class="balloon_l"><div class="faceicon"><img src="Alexa.jpeg" alt="" ></div><p class="says">項番'+kouban+'の日記はこちらです</p></div>');
     $('.zoon-ue').after('<div class="balloon_l"><div class="faceicon"><img src="Alexa.jpeg" alt="" ></div><p class="says">ーーーーーーーーーーーーーーー</p></div>');
 }
