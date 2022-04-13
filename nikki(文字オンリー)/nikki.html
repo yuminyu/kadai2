@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta lang = "utf-8">
+        <title>日記</title>
+        <link rel = "stylesheet" href = "nikki.css">
+    </head>
+    <body>
+        <div class="wrapper">
+        
+        <div class="left">
+            <div class="modal-zoon">
+                <a class="modal-open">！まずはこちら！</a>
+                <div class="modal-container">
+                <div class="modal-body">
+                    <div class="modal-close">×</div>
+                    <div class="modal-content">
+                        <p>日記を書ける</p>
+                        <p>日付、タイトル、本文、全部入力したら「ライト」ボタン！</p>
+                        <p>今までの日記を全部読みたい場合は「リード」ボタン！</p>
+                        <p>どんな日記があるかを確認する場合は「チラ見」ボタン！</p>
+                        <p>項番で日記を検索できるよ</p>
+                        <p>項番で日記を削除できるよ</p>
+                    </div>
+                </div>
+                </div>
+             </div>
+            
+            <div class="nikki-zoon">
+                <div class="button-area-1">
+                <input type="button" class="local-hozon" id="local-hozon" value="日記をローカルに保存">
+                </div>
+                <div class="button-area-1">
+                <input type="button" class="local-yobidasi" id="local-yobidasi" value="ローカルの日記を呼び出す">
+                </div>
+                <div class="button-area-1">
+                <input type="button" class="local-delete" id="local-delete" value="ローカルの日記を無かったことにする">
+                </div>
+                <p><label for="date">😃日付😃</lavel></p>
+                <input class="date" type="text" id="date" size="30" placeholder="YYYYMMDD形式で入れてね">
+                <p><label for="title">😃タイトル😃</label></p>
+                <input class="title" type="text" id="title" size="30">
+                <p><label for="honbun">😃本文😃</label></p>
+                <textarea class="honbun" type="text" id="honbun" cols="27"></textarea>
+                <div class="button-area">
+                <input type="button" class ="makeNikki" id="write" value="ライト">
+                <input type="button" class="lookThroughNikki" id="read" value="リード">
+                <input type="button" class="lookOverNikki" id="glance" value="チラ見">
+                </div>
+
+                <p><label for="find-input">😃項番で検索😃</label></p>
+                <input type="text" class="find" id="find-input" size="10">
+                <div class="button-area">
+                <input type="button" class="find" id="find" value="検索">
+                </div>
+
+                <p><label for="delete-input">😃項番で日記を削除😃</label></p>
+                <input type="text" class="delete" id="delete-input" size="10">
+                <div class="button-area">
+                <input type="button" class="delete" id="delete" value="日記を削除">
+                </div>
+    
+                <p><label for="tell-input">😃独り言😃</label></p>
+                <input type="text" class="tell" id="tell-input" size="30">
+                <div class="button-area">
+                <input type="button" class="tell" id="tell" value="ベゾスとして会話">
+                </div>
+            </div>
+        </div>
+        
+        <div class="zoon">
+            <div class="zoon-ue">
+
+            </div>
+        </div>
+
+        </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="nikki.js"></script>
+    </body>
+</html>
