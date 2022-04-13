@@ -55,8 +55,8 @@ function lookThroughNikki(){
     for(let i = 0;i<Nikki_array.length;i++){
         $('.zoon-ue').after('<div class="balloon_l"><div class="faceicon"><img src="Alexa.jpeg" alt="" ></div><p class="says">ーーーーーーーーーーーーーーー</p></div>');
         $('.zoon-ue').after('<div class="balloon_l"><div class="faceicon"><img src="Alexa.jpeg" alt="" ></div><p class="says">'+Nikki_array[i].honbun+'</p></div>');
-        $('.zoon-ue').after('<div class="balloon_l"><div class="faceicon"><img src="Alexa.jpeg" alt="" ></div><p class="says">'+Nikki_array[i].title+'</p></div>');
-        $('.zoon-ue').after('<div class="balloon_l"><div class="faceicon"><img src="Alexa.jpeg" alt="" ></div><p class="says">'+Nikki_array[i].date+'</p></div>');
+        $('.zoon-ue').after('<div class="balloon_l"><div class="faceicon"><img src="Alexa.jpeg" alt="" ></div><p class="says">タイトル：'+Nikki_array[i].title+'</p></div>');
+        $('.zoon-ue').after('<div class="balloon_l"><div class="faceicon"><img src="Alexa.jpeg" alt="" ></div><p class="says">日付：'+Nikki_array[i].date+'</p></div>');
         $('.zoon-ue').after('<div class="balloon_l"><div class="faceicon"><img src="Alexa.jpeg" alt="" ></div><p class="says">項番'+i+'↓</p></div>');
         $('.zoon-ue').after('<div class="balloon_l"><div class="faceicon"><img src="Alexa.jpeg" alt="" ></div><p class="says">ーーーーーーーーーーーーーーー</p></div>');
         console.log(i);
